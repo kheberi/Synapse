@@ -1,0 +1,1006 @@
+     0 [main] ERROR AbstractMediatorFactory (AbstractMediatorFactory.java:206) - Invalid SOAP header: MyHeader specified at the header mediator. All SOAP headers must be namespace qualified.
+     2 [main] ERROR AbstractMediatorFactory (AbstractMediatorFactory.java:206) - Invalid SOAP header: MyHeader specified at the header mediator. All SOAP headers must be namespace qualified.
+     3 [main] ERROR AbstractMediatorFactory (AbstractMediatorFactory.java:206) - Invalid QName 'm:MyHeader' in name attribute
+     3 [main] ERROR AbstractMediatorFactory (AbstractMediatorFactory.java:206) - Invalid QName 'm:MyHeader' in name attribute
+     0 [main] ERROR AbstractMediatorFactory (AbstractMediatorFactory.java:206) - Wrong configuration for the iterate mediator :: if the iterator should not preserve payload, then attachPath can not be present
+    34 [main] ERROR AbstractMediatorFactory (AbstractMediatorFactory.java:206) - Wrong configuration for the iterate mediator :: if the iterator should not preserve payload, then attachPath can not be present
+     0 [main]  INFO MessageStoreFactory (MessageStoreFactory.java:102) - Successfully created Message Store: foo
+    38 [main]  INFO MessageStoreFactory (MessageStoreFactory.java:102) - Successfully created Message Store: foo
+     0 [main]  INFO MultiXMLConfigurationBuilder (MultiXMLConfigurationBuilder.java:104) - Building synapse configuration from the synapse artifact repository at : /Users/SKheberi/git/synapse/modules/core/target/test-classes/synapse-config
+     7 [main]  INFO XMLConfigurationBuilder (XMLConfigurationBuilder.java:42) - Generating the Synapse configuration model by parsing the XML configuration
+     0 [main]  WARN TemplateParameterFactory (TemplateParameterFactory.java:80) - Default value is not specified for foo Parameter
+     2 [main]  WARN TemplateParameterFactory (TemplateParameterFactory.java:80) - Default value is not specified for bar Parameter
+     0 [main]  INFO ProxyService (ProxyService.java:758) - Building Axis service for Proxy service : mytest
+   268 [main]  INFO ProxyService (ProxyService.java:758) - Adding service mytest to the Axis2 configuration
+   276 [main]  INFO ProxyService (ProxyService.java:758) - Successfully created the Axis2 service for Proxy service : mytest
+   284 [main]  INFO ProxyService (ProxyService.java:758) - Building Axis service for Proxy service : Test
+   298 [main]  INFO ProxyService (ProxyService.java:758) - Adding service Test to the Axis2 configuration
+   298 [main]  INFO ProxyService (ProxyService.java:758) - Successfully created the Axis2 service for Proxy service : Test
+   585 [main]  INFO ProxyService (ProxyService.java:758) - Building Axis service for Proxy service : Test
+   587 [main]  INFO ProxyService (ProxyService.java:758) - Adding service Test to the Axis2 configuration
+   587 [main]  INFO ProxyService (ProxyService.java:758) - Successfully created the Axis2 service for Proxy service : Test
+     0 [main]  WARN AbstractEndpoint (AbstractEndpoint.java:557) - Endpoint failure - Error Code: 911911, Error Message: Custom Error
+     0 [main]  INFO SALSessions (SALSessions.java:400) - Clearing all states 
+     0 [main]  INFO SALSessions (SALSessions.java:400) - Clearing all states 
+     0 [main]  WARN TemplateParameterFactory (TemplateParameterFactory.java:80) - Default value is not specified for iterate_exp Parameter
+     1 [main]  WARN TemplateParameterFactory (TemplateParameterFactory.java:80) - Default value is not specified for endpoint_uri Parameter
+     4 [main]  WARN TemplateParameterFactory (TemplateParameterFactory.java:80) - Default value is not specified for sequence_ref Parameter
+     0 [main]  WARN TemplateParameterFactory (TemplateParameterFactory.java:80) - Default value is not specified for id Parameter
+    19 [main]  WARN TemplateParameterFactory (TemplateParameterFactory.java:80) - Default value is not specified for status Parameter
+    21 [main]  WARN TemplateParameterFactory (TemplateParameterFactory.java:80) - Default value is not specified for idList Parameter
+    22 [main]  WARN TemplateParameterFactory (TemplateParameterFactory.java:80) - Default value is not specified for subject Parameter
+    22 [main]  WARN TemplateParameterFactory (TemplateParameterFactory.java:80) - Default value is not specified for message Parameter
+    24 [main]  WARN TemplateParameterFactory (TemplateParameterFactory.java:80) - Default value is not specified for oauth.consumerKey Parameter
+    24 [main]  WARN TemplateParameterFactory (TemplateParameterFactory.java:80) - Default value is not specified for oauth.consumerSecret Parameter
+    25 [main]  WARN TemplateParameterFactory (TemplateParameterFactory.java:80) - Default value is not specified for oauth.accessToken Parameter
+    25 [main]  WARN TemplateParameterFactory (TemplateParameterFactory.java:80) - Default value is not specified for oauth.accessTokenSecret Parameter
+    25 [main]  WARN TemplateParameterFactory (TemplateParameterFactory.java:80) - Default value is not specified for profile.id Parameter
+     0 [main]  INFO AbstractDBMediator (AbstractDBMediator.java:455) - Successfully created data source for jdbc:derby:/Users/SKheberi/git/synapse/modules/core/target/derbyDB;create=true.
+     0 [main]  INFO AbstractDBMediator (AbstractDBMediator.java:455) - Successfully created data source for jdbc:derby:/Users/SKheberi/git/synapse/modules/core/target/derbyDB;create=true.
+     1 [main] ERROR MediatorLog (MediatorLog.java:175) - Error occurred in stylesheet parsing : javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+     3 [main] ERROR MediatorLog (MediatorLog.java:175) - Fatal error occurred in stylesheet parsing : javax.xml.transform.TransformerException: org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+     4 [main] ERROR AbstractMediator (AbstractMediator.java:286) - Error creating XSLT transformer using : Value {name ='null', keyValue ='xslt-key'}
+javax.xml.transform.TransformerConfigurationException: javax.xml.transform.TransformerException: org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:938)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:379)
+	at org.apache.synapse.mediators.transform.XSLTMediator.performXSLT(XSLTMediator.java:232)
+	at org.apache.synapse.mediators.transform.XSLTMediator.mediate(XSLTMediator.java:191)
+	at org.apache.synapse.mediators.transform.XSLTMediatorTest.testInvalidStylesheet(XSLTMediatorTest.java:319)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:234)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:133)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+Caused by: javax.xml.transform.TransformerException: org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:930)
+	... 29 more
+Caused by: org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:922)
+	at org.apache.xalan.processor.StylesheetHandler.getProcessorFor(StylesheetHandler.java:388)
+	at org.apache.xalan.processor.StylesheetHandler.startElement(StylesheetHandler.java:620)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:922)
+	... 29 more
+Caused by: javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:907)
+	... 42 more
+---------
+javax.xml.transform.TransformerException: org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:930)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:379)
+	at org.apache.synapse.mediators.transform.XSLTMediator.performXSLT(XSLTMediator.java:232)
+	at org.apache.synapse.mediators.transform.XSLTMediator.mediate(XSLTMediator.java:191)
+	at org.apache.synapse.mediators.transform.XSLTMediatorTest.testInvalidStylesheet(XSLTMediatorTest.java:319)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:234)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:133)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+Caused by: org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:922)
+	at org.apache.xalan.processor.StylesheetHandler.getProcessorFor(StylesheetHandler.java:388)
+	at org.apache.xalan.processor.StylesheetHandler.startElement(StylesheetHandler.java:620)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:922)
+	... 29 more
+Caused by: javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:907)
+	... 42 more
+---------
+org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:922)
+	at org.apache.xalan.processor.StylesheetHandler.getProcessorFor(StylesheetHandler.java:388)
+	at org.apache.xalan.processor.StylesheetHandler.startElement(StylesheetHandler.java:620)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:922)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:379)
+	at org.apache.synapse.mediators.transform.XSLTMediator.performXSLT(XSLTMediator.java:232)
+	at org.apache.synapse.mediators.transform.XSLTMediator.mediate(XSLTMediator.java:191)
+	at org.apache.synapse.mediators.transform.XSLTMediatorTest.testInvalidStylesheet(XSLTMediatorTest.java:319)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:234)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:133)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+Caused by: javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:907)
+	... 42 more
+---------
+; Line#: 4; Column#: 36
+; Line#: 4; Column#: 36
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:907)
+	at org.apache.xalan.processor.StylesheetHandler.getProcessorFor(StylesheetHandler.java:388)
+	at org.apache.xalan.processor.StylesheetHandler.startElement(StylesheetHandler.java:620)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:922)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:379)
+	at org.apache.synapse.mediators.transform.XSLTMediator.performXSLT(XSLTMediator.java:232)
+	at org.apache.synapse.mediators.transform.XSLTMediator.mediate(XSLTMediator.java:191)
+	at org.apache.synapse.mediators.transform.XSLTMediatorTest.testInvalidStylesheet(XSLTMediatorTest.java:319)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:234)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:133)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+---------
+org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:922)
+	at org.apache.xalan.processor.StylesheetHandler.getProcessorFor(StylesheetHandler.java:388)
+	at org.apache.xalan.processor.StylesheetHandler.startElement(StylesheetHandler.java:620)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:922)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:379)
+	at org.apache.synapse.mediators.transform.XSLTMediator.performXSLT(XSLTMediator.java:232)
+	at org.apache.synapse.mediators.transform.XSLTMediator.mediate(XSLTMediator.java:191)
+	at org.apache.synapse.mediators.transform.XSLTMediatorTest.testInvalidStylesheet(XSLTMediatorTest.java:319)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:234)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:133)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+Caused by: javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:907)
+	... 42 more
+---------
+; Line#: 4; Column#: 36
+; Line#: 4; Column#: 36
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:907)
+	at org.apache.xalan.processor.StylesheetHandler.getProcessorFor(StylesheetHandler.java:388)
+	at org.apache.xalan.processor.StylesheetHandler.startElement(StylesheetHandler.java:620)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:922)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:379)
+	at org.apache.synapse.mediators.transform.XSLTMediator.performXSLT(XSLTMediator.java:232)
+	at org.apache.synapse.mediators.transform.XSLTMediator.mediate(XSLTMediator.java:191)
+	at org.apache.synapse.mediators.transform.XSLTMediatorTest.testInvalidStylesheet(XSLTMediatorTest.java:319)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:234)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:133)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+     8 [main] ERROR AbstractMediator (AbstractMediator.java:288) - Error creating XSLT transformer using : Value {name ='null', keyValue ='xslt-key'}
+javax.xml.transform.TransformerConfigurationException: javax.xml.transform.TransformerException: org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:938)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:379)
+	at org.apache.synapse.mediators.transform.XSLTMediator.performXSLT(XSLTMediator.java:232)
+	at org.apache.synapse.mediators.transform.XSLTMediator.mediate(XSLTMediator.java:191)
+	at org.apache.synapse.mediators.transform.XSLTMediatorTest.testInvalidStylesheet(XSLTMediatorTest.java:319)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:234)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:133)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+Caused by: javax.xml.transform.TransformerException: org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:930)
+	... 29 more
+Caused by: org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:922)
+	at org.apache.xalan.processor.StylesheetHandler.getProcessorFor(StylesheetHandler.java:388)
+	at org.apache.xalan.processor.StylesheetHandler.startElement(StylesheetHandler.java:620)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:922)
+	... 29 more
+Caused by: javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:907)
+	... 42 more
+---------
+javax.xml.transform.TransformerException: org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:930)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:379)
+	at org.apache.synapse.mediators.transform.XSLTMediator.performXSLT(XSLTMediator.java:232)
+	at org.apache.synapse.mediators.transform.XSLTMediator.mediate(XSLTMediator.java:191)
+	at org.apache.synapse.mediators.transform.XSLTMediatorTest.testInvalidStylesheet(XSLTMediatorTest.java:319)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:234)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:133)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+Caused by: org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:922)
+	at org.apache.xalan.processor.StylesheetHandler.getProcessorFor(StylesheetHandler.java:388)
+	at org.apache.xalan.processor.StylesheetHandler.startElement(StylesheetHandler.java:620)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:922)
+	... 29 more
+Caused by: javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:907)
+	... 42 more
+---------
+org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:922)
+	at org.apache.xalan.processor.StylesheetHandler.getProcessorFor(StylesheetHandler.java:388)
+	at org.apache.xalan.processor.StylesheetHandler.startElement(StylesheetHandler.java:620)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:922)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:379)
+	at org.apache.synapse.mediators.transform.XSLTMediator.performXSLT(XSLTMediator.java:232)
+	at org.apache.synapse.mediators.transform.XSLTMediator.mediate(XSLTMediator.java:191)
+	at org.apache.synapse.mediators.transform.XSLTMediatorTest.testInvalidStylesheet(XSLTMediatorTest.java:319)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:234)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:133)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+Caused by: javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:907)
+	... 42 more
+---------
+; Line#: 4; Column#: 36
+; Line#: 4; Column#: 36
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:907)
+	at org.apache.xalan.processor.StylesheetHandler.getProcessorFor(StylesheetHandler.java:388)
+	at org.apache.xalan.processor.StylesheetHandler.startElement(StylesheetHandler.java:620)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:922)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:379)
+	at org.apache.synapse.mediators.transform.XSLTMediator.performXSLT(XSLTMediator.java:232)
+	at org.apache.synapse.mediators.transform.XSLTMediator.mediate(XSLTMediator.java:191)
+	at org.apache.synapse.mediators.transform.XSLTMediatorTest.testInvalidStylesheet(XSLTMediatorTest.java:319)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:234)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:133)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+---------
+org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:922)
+	at org.apache.xalan.processor.StylesheetHandler.getProcessorFor(StylesheetHandler.java:388)
+	at org.apache.xalan.processor.StylesheetHandler.startElement(StylesheetHandler.java:620)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:922)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:379)
+	at org.apache.synapse.mediators.transform.XSLTMediator.performXSLT(XSLTMediator.java:232)
+	at org.apache.synapse.mediators.transform.XSLTMediator.mediate(XSLTMediator.java:191)
+	at org.apache.synapse.mediators.transform.XSLTMediatorTest.testInvalidStylesheet(XSLTMediatorTest.java:319)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:234)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:133)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+Caused by: javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:907)
+	... 42 more
+---------
+; Line#: 4; Column#: 36
+; Line#: 4; Column#: 36
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:907)
+	at org.apache.xalan.processor.StylesheetHandler.getProcessorFor(StylesheetHandler.java:388)
+	at org.apache.xalan.processor.StylesheetHandler.startElement(StylesheetHandler.java:620)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:922)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:379)
+	at org.apache.synapse.mediators.transform.XSLTMediator.performXSLT(XSLTMediator.java:232)
+	at org.apache.synapse.mediators.transform.XSLTMediator.mediate(XSLTMediator.java:191)
+	at org.apache.synapse.mediators.transform.XSLTMediatorTest.testInvalidStylesheet(XSLTMediatorTest.java:319)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:234)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:133)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+    11 [main] ERROR AbstractMediator (AbstractMediator.java:286) - Unable to perform XSLT transformation using : Value {name ='null', keyValue ='xslt-key'} against source XPath : s11:Body/child::*[position()=1] | s12:Body/child::*[position()=1]
+org.apache.synapse.SynapseException: Error creating XSLT transformer using : Value {name ='null', keyValue ='xslt-key'}
+	at org.apache.synapse.mediators.AbstractMediator.handleException(AbstractMediator.java:293)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:389)
+	at org.apache.synapse.mediators.transform.XSLTMediator.performXSLT(XSLTMediator.java:232)
+	at org.apache.synapse.mediators.transform.XSLTMediator.mediate(XSLTMediator.java:191)
+	at org.apache.synapse.mediators.transform.XSLTMediatorTest.testInvalidStylesheet(XSLTMediatorTest.java:319)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:234)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:133)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+Caused by: javax.xml.transform.TransformerConfigurationException: javax.xml.transform.TransformerException: org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:938)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:379)
+	... 28 more
+Caused by: javax.xml.transform.TransformerException: org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:930)
+	... 29 more
+Caused by: org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:922)
+	at org.apache.xalan.processor.StylesheetHandler.getProcessorFor(StylesheetHandler.java:388)
+	at org.apache.xalan.processor.StylesheetHandler.startElement(StylesheetHandler.java:620)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:922)
+	... 29 more
+Caused by: javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:907)
+	... 42 more
+    12 [main] ERROR AbstractMediator (AbstractMediator.java:288) - Unable to perform XSLT transformation using : Value {name ='null', keyValue ='xslt-key'} against source XPath : s11:Body/child::*[position()=1] | s12:Body/child::*[position()=1]
+org.apache.synapse.SynapseException: Error creating XSLT transformer using : Value {name ='null', keyValue ='xslt-key'}
+	at org.apache.synapse.mediators.AbstractMediator.handleException(AbstractMediator.java:293)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:389)
+	at org.apache.synapse.mediators.transform.XSLTMediator.performXSLT(XSLTMediator.java:232)
+	at org.apache.synapse.mediators.transform.XSLTMediator.mediate(XSLTMediator.java:191)
+	at org.apache.synapse.mediators.transform.XSLTMediatorTest.testInvalidStylesheet(XSLTMediatorTest.java:319)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:234)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:133)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+Caused by: javax.xml.transform.TransformerConfigurationException: javax.xml.transform.TransformerException: org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:938)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:379)
+	... 28 more
+Caused by: javax.xml.transform.TransformerException: org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:930)
+	... 29 more
+Caused by: org.xml.sax.SAXException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:922)
+	at org.apache.xalan.processor.StylesheetHandler.getProcessorFor(StylesheetHandler.java:388)
+	at org.apache.xalan.processor.StylesheetHandler.startElement(StylesheetHandler.java:620)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xalan.processor.TransformerFactoryImpl.newTemplates(TransformerFactoryImpl.java:922)
+	... 29 more
+Caused by: javax.xml.transform.TransformerException: xsl:non-existing-tag is not allowed in this position in the stylesheet!
+	at org.apache.xalan.processor.StylesheetHandler.error(StylesheetHandler.java:907)
+	... 42 more
+     0 [main]  INFO AbstractTransportSender (AbstractTransportSender.java:85) - VFS Sender started
+   165 [main]  INFO PassThroughHttpSender (PassThroughHttpSender.java:233) - Pass-through HTTP sender started...
+   178 [main]  INFO PassThroughHttpSSLSender (PassThroughHttpSSLSender.java:212) - Loading Identity Keystore from : ./../../modules/distribution/src/main/conf/identity.jks
+   293 [main]  INFO PassThroughHttpSSLSender (PassThroughHttpSSLSender.java:248) - Loading Trust Keystore from : ./../../modules/distribution/src/main/conf/trust.jks
+   719 [main]  INFO PassThroughHttpSender (PassThroughHttpSender.java:233) - Pass-through HTTPS sender started...
+   748 [main]  INFO PassThroughHttpSSLListener (PassThroughHttpSSLListener.java:73) - Loading Identity Keystore from : ./../../modules/distribution/src/main/conf/identity.jks
+   749 [main]  INFO PassThroughHttpSSLListener (PassThroughHttpSSLListener.java:106) - Loading Trust Keystore from : ./../../modules/distribution/src/main/conf/trust.jks
+   754 [main]  INFO PassThroughHttpListener (PassThroughHttpListener.java:141) - Starting pass-through HTTP listener...
+   798 [main]  INFO PassThroughHttpListener (PassThroughHttpListener.java:211) - Pass-through HTTP listener started on port: 10100
+   799 [main]  INFO PassThroughHttpSSLListener (PassThroughHttpSSLListener.java:73) - Loading Identity Keystore from : ./../../modules/distribution/src/main/conf/identity.jks
+   801 [main]  INFO PassThroughHttpSSLListener (PassThroughHttpSSLListener.java:106) - Loading Trust Keystore from : ./../../modules/distribution/src/main/conf/trust.jks
+   804 [main]  INFO PassThroughHttpListener (PassThroughHttpListener.java:141) - Starting pass-through HTTPS listener...
+   808 [main]  INFO PassThroughHttpListener (PassThroughHttpListener.java:211) - Pass-through HTTPS listener started on port: 12100
+   822 [main]  INFO SynapseControllerFactory (SynapseControllerFactory.java:115) - Using Synapse home : /Users/SKheberi/git/synapse/modules/core/.
+   822 [main]  INFO SynapseControllerFactory (SynapseControllerFactory.java:115) - Using synapse.xml location : /Users/SKheberi/git/synapse/modules/core/././../../repository/conf/sample/resources/misc/synapse.xml
+   822 [main]  INFO SynapseControllerFactory (SynapseControllerFactory.java:97) - Using server name : localhost
+   826 [main]  INFO SynapseControllerFactory (SynapseControllerFactory.java:104) - The timeout handler will run every : 15s
+   845 [main]  INFO Axis2SynapseController (Axis2SynapseController.java:121) - Initializing Synapse at : Thu Nov 30 11:05:01 PST 2017
+   850 [main]  INFO Axis2SynapseController (Axis2SynapseController.java:816) - Loading mediator extensions...
+   866 [main]  INFO XMLConfigurationBuilder (XMLConfigurationBuilder.java:42) - Generating the Synapse configuration model by parsing the XML configuration
+  1055 [main]  INFO SynapseConfigurationBuilder (SynapseConfigurationBuilder.java:93) - Loaded Synapse configuration from : ././../../repository/conf/sample/resources/misc/synapse.xml
+  1057 [main]  WARN SynapseConfigUtils (SynapseConfigUtils.java:626) - IO Error reading from URL : ././../../repository/conf/sample/resources/faultjava.io.FileNotFoundException: ././../../repository/conf/sample/resources/fault (No such file or directory)
+  1061 [main]  INFO Axis2SynapseController (Axis2SynapseController.java:716) - Deploying the Synapse service...
+  1090 [main]  INFO Axis2SynapseController (Axis2SynapseController.java:754) - Deploying Proxy services...
+  1091 [main]  INFO ProxyService (ProxyService.java:758) - Building Axis service for Proxy service : StockQuoteProxy
+  1389 [main]  INFO ProxyService (ProxyService.java:758) - Adding service StockQuoteProxy to the Axis2 configuration
+  1392 [main]  INFO ProxyService (ProxyService.java:758) - Successfully created the Axis2 service for Proxy service : StockQuoteProxy
+  1392 [main]  INFO Axis2SynapseController (Axis2SynapseController.java:780) - Deployed Proxy service : StockQuoteProxy
+  1392 [main]  INFO Axis2SynapseController (Axis2SynapseController.java:832) - Deploying EventSources...
+  1430 [main]  INFO TimeoutHandler (TimeoutHandler.java:68) - This engine will expire all callbacks after : 180 seconds, irrespective of the timeout action, after the specified or optional timeout
+  1432 [main]  INFO ServerManager (ServerManager.java:188) - Server ready for processing...
+  1501 [main]  INFO AbstractTransportSender (AbstractTransportSender.java:85) - VFS Sender started
+  1524 [main]  INFO HttpCoreNIOSender (HttpCoreNIOSender.java:196) - HTTP Sender starting
+  1525 [main]  INFO HttpCoreNIOSSLSender (HttpCoreNIOSSLSender.java:210) - Loading Identity Keystore from : ./../../modules/distribution/src/main/conf/identity.jks
+  1526 [main]  INFO HttpCoreNIOSSLSender (HttpCoreNIOSSLSender.java:246) - Loading Trust Keystore from : ./../../modules/distribution/src/main/conf/trust.jks
+  1529 [main]  INFO HttpCoreNIOSender (HttpCoreNIOSender.java:196) - HTTPS Sender starting
+  1570 [main]  WARN PollTableEntry (PollTableEntry.java:212) - required parameter transport.vfs.FileURI is missing in the proxy service configuration
+  1581 [main]  INFO HttpCoreNIOSSLListener (HttpCoreNIOSSLListener.java:93) - Loading Identity Keystore from : ./../../modules/distribution/src/main/conf/identity.jks
+  1582 [main]  INFO HttpCoreNIOSSLListener (HttpCoreNIOSSLListener.java:126) - Loading Trust Keystore from : ./../../modules/distribution/src/main/conf/trust.jks
+  1599 [main]  WARN PollTableEntry (PollTableEntry.java:212) - required parameter transport.vfs.FileURI is missing in the proxy service configuration
+  1600 [main]  INFO AbstractTransportListener (AbstractTransportListener.java:176) - VFS listener started
+  1600 [main]  WARN PollTableEntry (PollTableEntry.java:212) - required parameter transport.vfs.FileURI is missing in the proxy service configuration
+  1603 [main]  WARN AbstractTransportListener (AbstractTransportListener.java:224) - Unable to configure the service Services for the VFS transport: Service doesn't have configuration information for transport vfs. This service is being marked as faulty and will not be available over the VFS transport.
+  1603 [main]  WARN AbstractTransportListener (AbstractTransportListener.java:192) - Disabling the vfs transport for the service Services, because it is not configured properly for the service
+  1620 [main]  INFO HttpCoreNIOListener (HttpCoreNIOListener.java:276) - HTTP Listener started on port : 10101
+  1625 [main]  INFO HttpCoreNIOSSLListener (HttpCoreNIOSSLListener.java:93) - Loading Identity Keystore from : ./../../modules/distribution/src/main/conf/identity.jks
+  1627 [main]  INFO HttpCoreNIOSSLListener (HttpCoreNIOSSLListener.java:126) - Loading Trust Keystore from : ./../../modules/distribution/src/main/conf/trust.jks
+  1632 [main]  INFO HttpCoreNIOListener (HttpCoreNIOListener.java:276) - HTTPS Listener started on port : 12101
+  1973 [Thread-8]  INFO AbstractTransportListener (AbstractTransportListener.java:166) - VFS Listener Shutdown
+  1973 [Thread-8] ERROR AbstractTransportListenerEx (AbstractTransportListenerEx.java:176) - Unable to stop service : Services - unable to find the corresponding protocol endpoint
+  1973 [Thread-2]  INFO PassThroughHttpListener (PassThroughHttpListener.java:258) - Stopping pass-through HTTP listener..
+  1976 [HttpCoreNIOListener]  INFO HttpCoreNIOListener$2 (HttpCoreNIOListener.java:262) - HTTP Listener Shutdown
+  1977 [Thread-2]  INFO PassThroughHttpListener (PassThroughHttpListener.java:258) - Stopping pass-through HTTPS listener..
+  1977 [PassThroughHTTPListener]  INFO PassThroughHttpListener$2 (PassThroughHttpListener.java:199) - HTTP listener shutdown.
+  1977 [PassThroughHTTPSListener]  INFO PassThroughHttpListener$2 (PassThroughHttpListener.java:199) - HTTPS listener shutdown.
+  1977 [Thread-8] ERROR AbstractTransportListenerEx (AbstractTransportListenerEx.java:176) - Unable to stop service : Services - unable to find the corresponding protocol endpoint
+  1978 [Thread-2]  INFO AbstractTransportSender (AbstractTransportSender.java:92) - VFS Sender Shutdown
+  1978 [HttpCoreNIOListener]  INFO HttpCoreNIOListener$2 (HttpCoreNIOListener.java:262) - HTTPS Listener Shutdown
+  1978 [PassThroughHTTPSender]  INFO PassThroughHttpSender$2 (PassThroughHttpSender.java:226) - HTTP sender shutdown
+  1978 [PassThroughHTTPSSender]  INFO PassThroughHttpSender$2 (PassThroughHttpSender.java:226) - HTTPS sender shutdown
+  1979 [Thread-8]  INFO AbstractTransportSender (AbstractTransportSender.java:92) - VFS Sender Shutdown
+  1979 [HttpCoreNIOSender]  INFO HttpCoreNIOSender$2 (HttpCoreNIOSender.java:192) - HTTP Sender Shutdown
+  1980 [HttpCoreNIOSender]  INFO HttpCoreNIOSender$2 (HttpCoreNIOSender.java:192) - HTTPS Sender Shutdown
+     0 [main]  WARN API (API.java:226) - Trying to access API : TestAPI on restricted transport chanel [https]
+     3 [main]  WARN API (API.java:226) - Trying to access API : TestAPI on restricted transport chanel [https]
+     0 [main]  WARN SynapseConfigUtils (SynapseConfigUtils.java:566) - Cannot convert null to a StreamSource
+     3 [main] ERROR AbstractMediator (AbstractMediator.java:286) - Error creating XSLT transformer using : Value {name ='null', keyValue ='/bogus/key'}
+org.apache.synapse.SynapseException: Cannot convert null to a StreamSource
+	at org.apache.synapse.config.SynapseConfigUtils.handleException(SynapseConfigUtils.java:567)
+	at org.apache.synapse.config.SynapseConfigUtils.getStreamSource(SynapseConfigUtils.java:76)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:380)
+	at org.apache.synapse.mediators.transform.XSLTMediator.performXSLT(XSLTMediator.java:232)
+	at org.apache.synapse.mediators.transform.XSLTMediator.mediate(XSLTMediator.java:191)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:68)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:114)
+	at org.apache.synapse.rest.Resource.process(Resource.java:298)
+	at org.apache.synapse.rest.API.process(API.java:344)
+	at org.apache.synapse.rest.RESTRequestHandler.dispatchToAPI(RESTRequestHandler.java:77)
+	at org.apache.synapse.rest.RESTRequestHandler.process(RESTRequestHandler.java:64)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:182)
+	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:83)
+	at org.apache.synapse.rest.ResourceTest.testFaultSequence(ResourceTest.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:234)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:133)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+     5 [main] ERROR AbstractMediator (AbstractMediator.java:288) - Error creating XSLT transformer using : Value {name ='null', keyValue ='/bogus/key'}
+org.apache.synapse.SynapseException: Cannot convert null to a StreamSource
+	at org.apache.synapse.config.SynapseConfigUtils.handleException(SynapseConfigUtils.java:567)
+	at org.apache.synapse.config.SynapseConfigUtils.getStreamSource(SynapseConfigUtils.java:76)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:380)
+	at org.apache.synapse.mediators.transform.XSLTMediator.performXSLT(XSLTMediator.java:232)
+	at org.apache.synapse.mediators.transform.XSLTMediator.mediate(XSLTMediator.java:191)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:68)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:114)
+	at org.apache.synapse.rest.Resource.process(Resource.java:298)
+	at org.apache.synapse.rest.API.process(API.java:344)
+	at org.apache.synapse.rest.RESTRequestHandler.dispatchToAPI(RESTRequestHandler.java:77)
+	at org.apache.synapse.rest.RESTRequestHandler.process(RESTRequestHandler.java:64)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:182)
+	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:83)
+	at org.apache.synapse.rest.ResourceTest.testFaultSequence(ResourceTest.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:234)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:133)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+     6 [main] ERROR AbstractMediator (AbstractMediator.java:286) - Unable to perform XSLT transformation using : Value {name ='null', keyValue ='/bogus/key'} against source XPath : s11:Body/child::*[position()=1] | s12:Body/child::*[position()=1]
+org.apache.synapse.SynapseException: Error creating XSLT transformer using : Value {name ='null', keyValue ='/bogus/key'}
+	at org.apache.synapse.mediators.AbstractMediator.handleException(AbstractMediator.java:293)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:389)
+	at org.apache.synapse.mediators.transform.XSLTMediator.performXSLT(XSLTMediator.java:232)
+	at org.apache.synapse.mediators.transform.XSLTMediator.mediate(XSLTMediator.java:191)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:68)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:114)
+	at org.apache.synapse.rest.Resource.process(Resource.java:298)
+	at org.apache.synapse.rest.API.process(API.java:344)
+	at org.apache.synapse.rest.RESTRequestHandler.dispatchToAPI(RESTRequestHandler.java:77)
+	at org.apache.synapse.rest.RESTRequestHandler.process(RESTRequestHandler.java:64)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:182)
+	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:83)
+	at org.apache.synapse.rest.ResourceTest.testFaultSequence(ResourceTest.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:234)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:133)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+Caused by: org.apache.synapse.SynapseException: Cannot convert null to a StreamSource
+	at org.apache.synapse.config.SynapseConfigUtils.handleException(SynapseConfigUtils.java:567)
+	at org.apache.synapse.config.SynapseConfigUtils.getStreamSource(SynapseConfigUtils.java:76)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:380)
+	... 36 more
+     7 [main] ERROR AbstractMediator (AbstractMediator.java:288) - Unable to perform XSLT transformation using : Value {name ='null', keyValue ='/bogus/key'} against source XPath : s11:Body/child::*[position()=1] | s12:Body/child::*[position()=1]
+org.apache.synapse.SynapseException: Error creating XSLT transformer using : Value {name ='null', keyValue ='/bogus/key'}
+	at org.apache.synapse.mediators.AbstractMediator.handleException(AbstractMediator.java:293)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:389)
+	at org.apache.synapse.mediators.transform.XSLTMediator.performXSLT(XSLTMediator.java:232)
+	at org.apache.synapse.mediators.transform.XSLTMediator.mediate(XSLTMediator.java:191)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:68)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:114)
+	at org.apache.synapse.rest.Resource.process(Resource.java:298)
+	at org.apache.synapse.rest.API.process(API.java:344)
+	at org.apache.synapse.rest.RESTRequestHandler.dispatchToAPI(RESTRequestHandler.java:77)
+	at org.apache.synapse.rest.RESTRequestHandler.process(RESTRequestHandler.java:64)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:182)
+	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:83)
+	at org.apache.synapse.rest.ResourceTest.testFaultSequence(ResourceTest.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:234)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:133)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+Caused by: org.apache.synapse.SynapseException: Cannot convert null to a StreamSource
+	at org.apache.synapse.config.SynapseConfigUtils.handleException(SynapseConfigUtils.java:567)
+	at org.apache.synapse.config.SynapseConfigUtils.getStreamSource(SynapseConfigUtils.java:76)
+	at org.apache.synapse.mediators.transform.XSLTMediator.createTemplate(XSLTMediator.java:380)
+	... 36 more
